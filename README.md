@@ -52,14 +52,14 @@ To install the dependencies:
 
     ```bash
     git clone <your_repo_url>.git
-    cd assignment_2
+    cd folder_name
     ```
 
 2. **Execute the Main Script:**
     The script contains the hardcoded parameters (returns, volatilities, correlations) from the assignment prompt.
 
     ```bash
-    python3 451_pa2_portfolio_mc_sim.py
+    python3 assign2_code.py
     ```
 
 **Expected Output:** The script will generate a console output detailing the number of simulations run and save one primary visualization:
@@ -67,7 +67,7 @@ To install the dependencies:
 
 ---
 
-## 🛠️ For Developers: Building and Testing
+##  For Developers: Building and Testing
 
 This section provides details for those interested in the underlying methodology and code structure.
 
@@ -75,9 +75,8 @@ This section provides details for those interested in the underlying methodology
 
 | File/Folder | Description |
 |-------------|-------------|
-| `451_pa2_portfolio_mc_sim.py` | Main execution script: Defines parameters, runs both Monte Carlo simulations, calculates $\mu_p$ and $\sigma_p$, and generates the final plot. |
+| `assign2_code.py` | Main execution script: Defines parameters, runs both Monte Carlo simulations, calculates $\mu_p$ and $\sigma_p$, and generates the final plot. |
 | `report.pdf` | The detailed written analysis, including parameter assumptions, interpretation of results, and discussion. |
-| `parameters.py` | *(Optional)* A separate file to define and store the expected returns, volatilities, and the correlation matrix. |
 
 ### Simulation Methodology Overview
 
